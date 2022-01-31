@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    height: 7rem;
+    width: 100%;
+    /* background-color: brown; */
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+#navbar ul{
+    display: flex;
+    margin-top: 2rem;
+
+}
+#navbar ul li{
+    font-size: 2rem;
+    margin: 1rem 5rem;
+    list-style: none;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+#navbar ul .deals{
+    margin-left: 43rem;
+    /* margin-top: 2rem; */
+}
+#navbar ul .clients i{
+    padding-right: 4px;
+}
+#navbar ul .glyphicon{
+    margin-left: 32rem;
+    font-size: 3rem;
+}
+#navbar .image img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+#navbar .image a{
+    font-size: 2rem;
+}
+#navbar .image i{
+    margin: 2rem 3rem ;
+    font-size: 2rem;
+}
+.container5{
+    height: 12rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1.5rem rgba(14, 3, 3, 0.993);
+    /* margin-right: 110rem; */
+    margin-bottom: 4rem;
+}
+.container5 .filine{
+    height: 120px;
+    border: .5px solid gray;
+    position: absolute;
+    /* left: 50%; */
+    margin-left: 267px;
+    margin-top: -48px;
+}
+.container5 .seline{
+    height: 120px;
+    border: .5px solid gray;
+    position: absolute;
+    /* left: 50%; */
+    margin-left: 534px;
+    margin-top: -48px;
+
+}
+.container5 .thline{
+    height: 120px;
+    border: .5px solid gray;
+    position: absolute;
+    /* left: 50%; */
+    margin-left: 801px;
+    margin-top: -48px;
+
+}
+.container5 .dValue{
+    padding-top: 23px;
+    margin-left: 1rem;
+    font-weight: bold;
+    
+}
+.container5 .dValue span{
+    margin-left: 142px;
+}
+.container5 .aValue{
+    margin-top: -25px;   
+    margin-left: 278px;
+    font-weight: bold;
+}
+.container5.aValue span{
+    margin-left: 116px;
+}
+.container5 .sRatio{
+    margin-top: -25px;
+    margin-left: 550px;
+    font-weight: bold;
+}
+.container5 .sRatio span{
+    margin-left: 100px;
+}
+.container5 .aLife{
+    margin-top: -25px;
+    margin-left: 818px;
+    font-weight: bold;
+}
+.container5 .aLife span{
+    margin-left: 100px;
+}
+ .container5 hr{
+    font-weight: bold;
+    border-top: 1px solid black;
+}
+.container5 .lMonth{
+    margin-left: 1rem;
+    margin-top: -1rem;
+}
+.container5 .growth{
+    margin-left: 1rem;
+}
+.container5 .lMonth span{
+    margin-left: 157px;
+}
+.container5 .growth span{
+    margin-left: 161px;
+    color: aqua;
+}
+.container5 .lMonth2{
+    margin-left: 28rem;
+    margin-top: -5rem;
+}
+.container5 .tMonth{
+    margin-left: 28rem;
+}
+.container5 .lMonth2 span{
+    margin-left: 155px;
+}
+.container5 .tMonth span{
+    margin-left: 121px;
+    color: aqua;
+}
+.container5 .lMonth3{
+    margin-left: 55rem;
+    margin-top: -5rem;
+}
+.container5 .tMonth2{
+    margin-left: 55rem;
+}
+.container5 .lMonth3 span{
+    margin-left: 141px;
+}
+.container5 .tMonth2 span{
+    margin-left: 126px;
+    color: aqua;
+}
+.container5 .lMonth4{
+    margin-left: 82rem;
+    margin-top: -5rem;
+}
+.container5 .tMonth3{
+    margin-left: 82rem;
+}
+.container5 .lMonth4 span{
+    margin-left: 118px;
+}
+.container5 .tMonth3 span{
+    margin-left: 118px;
+    color: aqua;
+}
+.last{
+    margin-left: 55px;
+}
+.client2{
+    margin-left:255px;
+}
+.org{
+    margin-left: 50px;
+}
+.closes{
+    margin-left: 37px;
+}
+.state{
+    margin-left: 161px;
+}
+.value{
+    margin-left: 246px;
+}
+
+.container6{
+    height: 6rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1.5rem rgba(14, 3, 3, 0.993);
+    /* margin-right: 110rem; */
+    margin-bottom: 4rem;
+    display: flex;
+}
+.container6 h5{
+    margin-top: 23px;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.container6 img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-top: 17px;
+    margin-left: 278px;
+}
+.container6 i{
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-left: 117px;
+}
+.container6 p{
+    margin-top: 2rem;
+}
+
+.container6 span{
+    margin-left: 445px;
+    margin-top: 2rem;
+}
+
+/* .last3{
+    margin-bottom: 50rem;
+} */
+ .last3 .less{
+    margin-left: 5rem;
+}
+ .last3 .one{
+    margin-left: 3px;
+}
+ .last3 .greater{
+    margin-left: 3px;
+}
+
+
+.container7{
+    height: 65rem;
+    margin-top: -33rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1.5rem rgba(14, 3, 3, 0.993);
+    margin-right: 110rem;
+    /* margin-bottom: 4rem; */
+     /* width: 100%; */
+    /* background-color: red; */
+    /* margin-left: 5rem; */
+
+}
+/* .container7 .pencil{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.container7 .plus{
+    margin-top: 1rem;
+    margin-left: 28rem;
+}
+.container7 img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin-left: 14rem;
+    margin-top: 2rem;
+}
+.container7 .btnbox{
+    height: 3rem;
+    width: 20rem;
+    margin: 2rem 7rem;
+    border-radius: 66px/56px;
+    display: flex;
+    border: 1px solid blue;
+}
+.container7 .btnbox .btn1{
+    width: 10rem;
+    border-radius: 50px 0px 0px 50px;
+}
+.container7 .btnbox .btn2{
+    width: 10rem;
+    border-radius: 0px 50px 50px 0px;
+}
+.container7 .btnbox .btn1:hover{
+    background-color: blue;
+    color: white;
+}
+.container7 .btnbox .btn2:hover{
+    background-color: blue;
+    color: white;
+}
+.container7 .empbox{
+    height: 15rem;
+    width: 295px;
+    background-color: gray;
+    margin: 2rem;
+} */
+
+.container7 .pValue{
+    margin-left: 2rem;
+    font-weight: bold;
+    padding-top: 26px;
+}
+.container7 .pValue span{
+    margin-left: 153px;
+}
+.container7 .fMember{
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.container7 .fStage{
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.container7 .search-container input{
+    width: 275px;
+    margin-left: 2rem;
+}
+.container7 .search-container button{
+    margin-left: -5px;
+}
+.container7 .box4{
+    height: 3rem;
+    width: 295px;
+    /* border: 1px solid red; */
+    margin: 1px 2rem;
+    padding: 4px;
+    border-radius: 5px;
+}
+.container7 .box4 .first{
+    margin-left: 173px;
+}
+.container7 .box4 .second{
+    margin-left: 220px;
+}
+.container7 .box4 .third{
+    margin-left: 221px;
+}
+.container7 .box4 .fourth{
+    margin-left: 182px;
+}
+.container7 .box4 .fifth{
+    margin-left: 207px;
+}
+.container7 .box4 .sixth{
+    margin-left: 226px;
+}
+.container7 .box4 .seventh{
+    margin-left: 186px;
+}
+.container7 .box4 .eighth{
+    margin-left: 5px; 
+}
+.container7 .box4 .glyphicon{
+    margin-left: 143px;
+}
+.container7 #active{
+    border: 1px solid darkblue;
+}
+.container7 #lead1{
+    border: 1px solid yellow;
+}
+.container7 #pitch{
+    border: 1px solid orangered;
+}
+.container7 #negotiation{
+    border: 1px solid blueviolet;
+}
+.container7 #closing{
+    border: 1px solid skyblue;
+}
+.container7 #won{
+    border: 1px solid blue;
+}
+.container7 #loss{
+    border: 1px solid gray;
+}
+.container7 #archived{
+    border: 1px solid gray;
+}
+.container7 #active:hover{
+    background-color: darkblue;
+    color: white;
+    transition: 1s;
+}
+.container7 #lead1:hover{
+    background-color: yellow;
+    color: white;
+    transition: 1s;
+}
+.container7 #pitch:hover{
+    background-color: orangered;
+    color: white;
+    transition: 1s;
+}
+.container7 #negotiation:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 1s;
+}
+.container7 #closing:hover{
+    background-color: skyblue;
+    color: white;
+    transition: 1s;
+}
+.container7 #won:hover{
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+.container7 #loss:hover{
+    background-color: gray;
+    color: white;
+    transition: 1s;
+}
+.container7 #archived:hover{
+    background-color: gray;
+    color: white;
+    transition: 1s;
+}
+.container7 .box5{
+    display: flex;
+}
+.container7 .box5 img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+.container7 .box5 .plus{
+    height: 3rem;
+    width: 3rem;
+    margin-left: 2rem;
+}
+

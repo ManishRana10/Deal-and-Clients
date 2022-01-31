@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    height: 7rem;
+    width: 100%;
+    /* background-color: brown; */
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+#navbar ul{
+    display: flex;
+    margin-top: 2rem;
+
+}
+#navbar ul li{
+    font-size: 2rem;
+    margin: 1rem 5rem;
+    list-style: none;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+#navbar ul .deals{
+    margin-left: 43rem;
+    /* margin-top: 2rem; */
+}
+#navbar ul .clients i{
+    padding-right: 4px;
+}
+#navbar ul .glyphicon{
+    margin-left: 32rem;
+    font-size: 3rem;
+}
+#navbar .image img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+#navbar .image a{
+    font-size: 2rem;
+}
+#navbar .image i{
+    margin: 2rem 3rem ;
+    font-size: 2rem;
+}
+/* #navbar .image .assert{
+    font-size: 10px;
+    margin-top: 3rem;
+    padding-top: 3rem;
+} */
+.container{
+    height: 50rem;
+    /* width: 100%; */
+    /* background-color: red; */
+    margin-top: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1.5rem rgba(14, 3, 3, 0.993);
+
+}
+.container .box ul{
+    display: flex;
+}
+.container .box ul li{
+    font-size: 1rem;
+    margin: 1rem 1rem;
+    list-style: none;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .box ul #site-search{
+    margin-top: 1rem;
+    margin-left: 75rem;
+    height: 3rem;
+    width: 18rem;
+ }
+ .container .box ul .btn1{
+     height: 3rem;
+     width: 12rem;
+     margin: 1rem 3rem;
+     color: #fff;
+    background-color: blue;
+    padding-top: 4px;
+    padding-left: 4px;
+    align-items: center;
+    }
+    .container .box ul .btn1 i{
+        
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .container .box ul .btn2{
+        height: 3rem;
+        width: 12rem;
+        margin-top: 1rem;
+        margin-right: 3rem;
+        color: #fff;
+       background-color: red;
+       padding-top: 4px;
+       padding-left: 4px;
+       /* padding-right: 4rem; */
+       align-items: center;
+    }
+    .container .box ul .btn2 i{
+        
+        /* padding-left: 5px; */
+        /* padding-right: 4rem; */
+        margin-right: 12px;
+    }
+    .container .box2 .name{
+        margin-left: 5rem;
+    }
+    .container .box2 .tel{
+        margin-left: 22rem;
+    }
+    .container .box2 .email{
+        margin-left: 18rem;
+    }
+    .container .box2 .added{
+        margin-left: 31rem;
+    }
+    .container .box2 .updated{
+        margin-left: 16rem;
+    }
+    .container .box2 hr{
+        margin-top: 3px;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+    }
+    .container .box3 img{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        margin-left: 1rem;
+    }
+    .container .box3 .name{
+        margin-left: 1rem;
+    }
+    .container .box3 .tel{
+        margin-left: 17rem;
+    }
+    .box3 i{
+        padding-right: 5px;
+    }
+    .container .box3 .email{
+        margin-left: 9rem;
+    }
+    .container .box3 .added{
+        margin-left: 17rem;
+    }
+    .container .box3 .updated{
+        margin-left: 12rem;
+    }
+    .container .box3 hr{
+        margin-top: 3px;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+    }
+    .container .box3 .glyphicon{
+        font-size: 3rem;
+    }
+
+    .container .last .less{
+        margin-left: 4px;
+    }
+    .container .last .one{
+        margin-left: 3px;
+    }
+    .container .last .greater{
+        margin-left: 3px;
+    }
+    .container .last .cli{
+        margin-left: 28px;
+    }
+
+
+
+
+
+
+
+
+
+

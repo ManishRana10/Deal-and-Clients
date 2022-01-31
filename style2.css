@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    height: 7rem;
+    width: 100%;
+    /* background-color: brown; */
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+#navbar ul{
+    display: flex;
+    margin-top: 2rem;
+
+}
+#navbar ul li{
+    font-size: 2rem;
+    margin: 1rem 5rem;
+    list-style: none;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+#navbar ul .deals{
+    margin-left: 43rem;
+    /* margin-top: 2rem; */
+}
+#navbar ul .clients i{
+    padding-right: 4px;
+}
+#navbar ul .glyphicon{
+    margin-left: 32rem;
+    font-size: 3rem;
+}
+#navbar .image img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+#navbar .image a{
+    font-size: 2rem;
+}
+#navbar .image i{
+    margin: 2rem 3rem ;
+    font-size: 2rem;
+}
+.container2{
+    height: 65rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1.5rem rgba(14, 3, 3, 0.993);
+    margin-right: 110rem;
+    /* margin-bottom: 4rem; */
+     /* width: 100%; */
+    /* background-color: red; */
+    /* margin-left: 5rem; */
+
+}
+.container2 .pencil{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.container2 .plus{
+    margin-top: 1rem;
+    margin-left: 28rem;
+}
+.container2 img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin-left: 14rem;
+    margin-top: 2rem;
+}
+.container2 .btnbox{
+    height: 3rem;
+    width: 20rem;
+    margin: 2rem 7rem;
+    border-radius: 66px/56px;
+    display: flex;
+    border: 1px solid blue;
+}
+.container2 .btnbox .btn1{
+    width: 10rem;
+    border-radius: 50px 0px 0px 50px;
+}
+.container2 .btnbox .btn2{
+    width: 10rem;
+    border-radius: 0px 50px 50px 0px;
+}
+.container2 .btnbox .btn1:hover{
+    background-color: blue;
+    color: white;
+}
+.container2 .btnbox .btn2:hover{
+    background-color: blue;
+    color: white;
+}
+.container2 .empbox{
+    height: 15rem;
+    width: 295px;
+    background-color: gray;
+    margin: 2rem;
+}
+.container2 h5{
+    margin-left: 2rem;
+}
+.container2 .box4{
+    height: 3rem;
+    width: 295px;
+    /* border: 1px solid red; */
+    margin: 1px 2rem;
+    padding: 4px;
+    border-radius: 5px;
+}
+.container2 .box4 .first{
+    margin-left: 173px;
+}
+.container2 .box4 .second{
+    margin-left: 220px;
+}
+.container2 .box4 .third{
+    margin-left: 221px;
+}
+.container2 .box4 .fourth{
+    margin-left: 182px;
+}
+.container2 .box4 .fifth{
+    margin-left: 207px;
+}
+.container2 .box4 .sixth{
+    margin-left: 226px;
+}
+.container2 .box4 .seventh{
+    margin-left: 186px;
+}
+.container2 .box4 .eighth{
+    margin-left: 5px; 
+}
+.container2 .box4 .glyphicon{
+    margin-left: 143px;
+}
+.container2 #active{
+    border: 1px solid darkblue;
+}
+.container2 #lead1{
+    border: 1px solid yellow;
+}
+.container2 #pitch{
+    border: 1px solid orangered;
+}
+.container2 #negotiation{
+    border: 1px solid blueviolet;
+}
+.container2 #closing{
+    border: 1px solid skyblue;
+}
+.container2 #won{
+    border: 1px solid blue;
+}
+.container2 #loss{
+    border: 1px solid gray;
+}
+.container2 #archived{
+    border: 1px solid gray;
+}
+.container2 #active:hover{
+    background-color: darkblue;
+    color: white;
+    transition: 1s;
+}
+.container2 #lead1:hover{
+    background-color: yellow;
+    color: white;
+    transition: 1s;
+}
+.container2 #pitch:hover{
+    background-color: orangered;
+    color: white;
+    transition: 1s;
+}
+.container2 #negotiation:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 1s;
+}
+.container2 #closing:hover{
+    background-color: skyblue;
+    color: white;
+    transition: 1s;
+}
+.container2 #won:hover{
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+.container2 #loss:hover{
+    background-color: gray;
+    color: white;
+    transition: 1s;
+}
+.container2 #archived:hover{
+    background-color: gray;
+    color: white;
+    transition: 1s;
+}
+
+.container3{
+    height: 6rem;
+    margin-top: -66rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1.5rem rgba(14, 3, 3, 0.993);
+    /* margin-right: 110rem; */
+    margin-bottom: 4rem;
+}
+.container3 .filine{
+    height: 60px;
+    border: .5px solid gray;
+    position: absolute;
+    /* left: 50%; */
+    margin-left: 267px;
+    margin-top: -48px;
+}
+.container3 .seline{
+    height: 60px;
+    border: .5px solid gray;
+    position: absolute;
+    /* left: 50%; */
+    margin-left: 534px;
+    margin-top: -48px;
+
+}
+.container3 .thline{
+    height: 60px;
+    border: .5px solid gray;
+    position: absolute;
+    /* left: 50%; */
+    margin-left: 801px;
+    margin-top: -48px;
+
+}
+.container3 .dValue{
+    padding-top: 23px;
+    margin-left: 1rem;
+    font-weight: bold;
+    
+}
+.container3 .dValue span{
+    margin-left: 142px;
+}
+.container3 .aValue{
+    margin-top: -25px;   
+    margin-left: 278px;
+    font-weight: bold;
+}
+.container3 .aValue span{
+    margin-left: 116px;
+}
+.container3 .sRatio{
+    margin-top: -25px;
+    margin-left: 550px;
+    font-weight: bold;
+}
+.container3 .sRatio span{
+    margin-left: 100px;
+}
+.container3 .aLife{
+    margin-top: -25px;
+    margin-left: 818px;
+    font-weight: bold;
+}
+.container3 .aLife span{
+    margin-left: 100px;
+}
+.last{
+    margin-left: 415px;
+}
+.client2{
+    margin-left:255px;
+}
+.org{
+    margin-left: 50px;
+}
+.closes{
+    margin-left: 37px;
+}
+.state{
+    margin-left: 161px;
+}
+.value{
+    margin-left: 246px;
+}
+.container4{
+    height: 6rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1.5rem rgba(14, 3, 3, 0.993);
+    /* margin-right: 110rem; */
+    margin-bottom: 4rem;
+    display: flex;
+}
+.container4 h5{
+    margin-top: 23px;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.container4 img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-top: 17px;
+    margin-left: 278px;
+}
+.container4 i{
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-left: 117px;
+}
+.container4 p{
+    margin-top: 2rem;
+}
+
+.container4 span{
+    margin-left: 445px;
+    margin-top: 2rem;
+}
+.last2{
+    margin-bottom: 50rem;
+}
+ .last2 .less{
+    margin-left: 40rem;
+}
+ .last2 .one{
+    margin-left: 3px;
+}
+ .last2 .greater{
+    margin-left: 3px;
+}
