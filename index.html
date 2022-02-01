@@ -48,8 +48,8 @@
                 <input type="search" id="site-search" name="" placeholder="Search clients..">
 
 
-                <button type="button" class="btn1"><i class="glyphicon glyphicon-plus-sign"></i>Add Client</button>
-                <button type="button" class="btn2"><i class="glyphicon glyphicon-trash"></i>Delete</button>
+                <button type="button" id="addC" class="btn1"><i class="glyphicon glyphicon-plus-sign"></i>Add Client</button>
+                <button type="button" id="delC" class="btn2"><i class="glyphicon glyphicon-trash"></i>Delete</button>
             </ul>
 
         </div>
@@ -128,6 +128,29 @@
           </div>
 
     </div>
+
+    <div class="popup">
+        <div class="pop-content">
+            <i class="close fa fa-close"></i>
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="tel" placeholder="Tel">
+            <input type="text" id="email" placeholder="Email">
+            <input type="text" id="added" placeholder="Added">
+            <input type="text" id="updated" placeholder="Updated">
+            <button type="button" onclick="saveData()">Add</button>
+        </div>
+    </div>
+
+    <div class="popup2">
+        <div class="pop-content2">
+            <i class="close2 fa fa-close"></i>
+            <h3>Are you sure you want to delete this item ?</h3>
+            <button type="button" class="yes">yes</button>
+            <button type="button" class="no">No</button>
+        </div>
+    </div>
+
+    <script src="script1.js"></script>
 </body>
 
 </html>
